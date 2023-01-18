@@ -1,0 +1,159 @@
+header {
+     background-color: #eded08ef;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.caixa p {
+    font-size: 30px;
+    text-transform: uppercase;
+	color: #00008B;
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    font-weight: bold;
+}
+
+.caixa img {
+    width: 220px;
+    height: 220px;
+}
+
+nav {
+	position: absolute;
+	top: 100px;
+	right: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #00008B;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    color: #8B4513;
+    text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos img {
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.produtos li:hover {
+    border-color: #00008B;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+    color: #00008B;
+}
+
+.produtos li:hover p {
+    font-size: 20px;
+    color: #00008B;
+}
+
+.produtos li:active {
+    border-color: #8B4513;
+}
+
+.produtos li:active h2 {
+    font-size: 35px;
+    color: #8B4513;
+}
+
+.produtos li:active p {
+    font-size: 20px;
+    color: #8B4513;
+}
+
+footer {
+    text-align: center;
+    background-color: #00008B;
+    color: aliceblue;
+    padding: 40px 0;
+}
+
+footer p {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+footer img {
+    height: 200px;
+}
+
+.descricao {
+    text-align: center;
+    margin: auto;
+	width: 940px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 50%;
+}
+
+.descricao p {
+    font-size: 20px;
+}
+
+.descricao h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #00008B;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
