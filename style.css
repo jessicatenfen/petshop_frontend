@@ -10,12 +10,12 @@ header {
 
 .caixa p {
     font-size: 30px;
-    text-transform: uppercase;
 	color: #00008B;
     position: absolute;
     top: 160px;
     left: 200px;
     font-weight: bold;
+    font-family: 'Prata', serif;
 }
 
 .caixa img {
@@ -46,6 +46,51 @@ nav a {
 nav a:hover {
     color: #8B4513;
     text-decoration: underline;
+}
+
+.textohome {
+    font-size: 20px; 
+}
+
+.estabelecimento {
+	width: 940px;
+	margin: 2em auto;
+    text-align: center;
+}
+
+.estabelecimento h2 {
+    color: #00008B;
+	font-size: 40px;
+    margin: 2em auto 1em auto;
+}
+
+.mapa {
+    padding-top: 40px;
+}
+
+.beneficios {
+	width: 940px;
+	margin: 2em auto;
+    text-align: center;
+}
+
+.beneficios p {
+    color: #00008B;
+	font-size: 40px;
+    margin: 2em auto;
+}
+
+.beneficios-lista {
+    text-align: justify;
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.5;
+}
+
+.video {
+    width: 40%;
+    display: inline-block;
 }
 
 .produtos {
@@ -135,18 +180,17 @@ footer img {
     text-align: center;
     margin: auto;
     padding-top: 50px;
-    padding-bottom: 100px;
-    width: 50%;
+    width: 60%;
+}
+
+.descricao h1 {
+    color: #00008B;
+	font-size: 40px;
+    margin: 0.5em auto;
 }
 
 .descricao p {
     font-size: 20px;
-}
-
-.descricao h1 {
-    font-size: 30px;
-    font-weight: bold;
-    padding-bottom: 20px;
 }
 
 .titulo {
@@ -175,6 +219,7 @@ footer img {
 
 .apresentacao p {
     font-size: 18px;
+    margin-right: 95px;
 }
 
 .contatos {
@@ -202,4 +247,59 @@ footer img {
 
 .titulo-conteudo{
     padding-bottom: 5px;
+}
+
+.formulario {
+    margin-left: 135px;
+    margin-top: 5px;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 18px;
+	margin: 0 0 10px;
+    text-align: justify;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:30%;
+	padding: 10px 0;
+	background: #00008B;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #020253;
+}
+
+.div-formulario{
+    margin: auto;
+    width: 940px;
+}
+
+fieldset select {
+    font-size: 15px;
+    padding: 2px 0 ;
+}
+
+.caixa-apresentacao{
+    width: 940px;
+    margin: 0 auto;
 }

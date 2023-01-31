@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
     <title>Petshop Petit Gatô</title>
 </head>
 <body>
   <header> 
     <div class="caixa">
         <img src="imagem\petlogo.png.png" alt="logo">
-        <p>  Petit Gatô  </p>
+        <p>  Petit & Gatô  </p>
         <nav>   
             <ul>
                 <li> <a href="index.html">Home</a></li>
@@ -24,10 +27,50 @@
   </header> 
   
   <main>
-    <div class="apresentacao">
-        <h1> Fale Conosco </h1>
-        <br>
-        <p> Queremos ouvir você! Entre em contato com a gente e responderemos o mais breve possível. </p>
+    <div class="caixa-apresentacao">
+        <div class="apresentacao">
+            <h1> Fale Conosco </h1>
+            <br>
+            <p> Queremos ouvir você! Entre em contato e responderemos o mais breve possível.</p>
+        </div>
+    
+        <div class="div-formulario">
+            <form class="formulario">
+                <label for="nomesobrenome"> Nome e Sobrenome </label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+    
+                <label for="email"> Email </label>
+                <input type="email" id="email" class="input-padrao" required placeholder="contato@dominio.com">
+    
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+    
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+    
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+    
+                <label class="checkbox"><input type="checkbox" checked> Quero receber nossas novidades e promoções por email </label>
+    
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+        </div>
     </div>
     
     <div class="contatos">
@@ -35,13 +78,13 @@
             <li>
                 <p class="titulo-principal"> Endereço e Contatos </p>
                 <p class="titulo"> Endereco: </p>
-                <p class="titulo-conteudo"> Rua Marechal Deodoro 1890 - Centro - 870560-0 - Cascavel - PR </p>
+                <p class="titulo-conteudo"> Rua Marechal Deodoro 0800 - Centro - 870560-099 - Cascavel - PR </p>
                 <p class="titulo"> Telefone: </p>
-                <p class="titulo-conteudo"> (45) 3000-3039 </p>
+                <p class="titulo-conteudo"> (45) 3099-30999 </p>
                 <p class="titulo" > Celular: </p>
-                <p class="titulo-conteudo"> (45) 99999-6600 </p>
+                <p class="titulo-conteudo"> (45) 99999-660000 </p>
                 <p class="titulo" > Veterinário Plantonista: </p>
-                <p> (45) 87987-09800 </p>
+                <p> (45) 87987-098009 </p>
             </li>
             <li>
                 <p class="titulo-principal"> Horário de Atendimento </p>
