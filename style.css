@@ -88,8 +88,13 @@ nav a:hover {
     line-height: 1.5;
 }
 
+.beneficios li:before{
+    content: "✰";
+    color: #00008B;
+}
+
 .video {
-    width: 40%;
+    width: 50%;
     display: inline-block;
 }
 
