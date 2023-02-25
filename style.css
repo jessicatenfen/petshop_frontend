@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 .beneficios li:before{
-    content: "✰";
+    content: "✰ ";
     color: #00008B;
 }
 
@@ -207,7 +207,7 @@ footer img {
 }
 
 .apresentacao {
-    text-align: center;
+    text-align: justify;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: auto;
@@ -216,7 +216,7 @@ footer img {
 
 .apresentacao h1 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     padding-bottom: 6px;
     padding-top: 6px;
     color: #00008B;
@@ -229,7 +229,7 @@ footer img {
 
 .contatos {
 	width: 940px;
-	margin: 0 auto;
+	margin: 0 130px;
 	padding: 50px 0;
 }
 
@@ -255,7 +255,7 @@ footer img {
 }
 
 .formulario {
-    margin-left: 135px;
+    
     margin-top: 5px;
 }
 
